@@ -34,8 +34,8 @@ void loop()
     Myservo.write(90);
     digitalWrite(MRb, HIGH);    
     digitalWrite(MRa, LOW);
-    digitalWrite(MLb, LOW);                                
-    digitalWrite(MLa, HIGH);                                                       
+    digitalWrite(MLb, HIGH);                                
+    digitalWrite(MLa, LOW);                                                       
   }
   else if ((distance < 20)&&(distance > 0))     
   {
